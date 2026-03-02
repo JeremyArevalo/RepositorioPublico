@@ -1,6 +1,14 @@
 <?php
-    echo("Hola Mundo");
-    echo("Adiós Mundo");
-    echo("Hola de nuevo");
-    echo("Último saludo");
+    // Array con los mensajes
+    $mensajes = [
+        "Hola Mundo",
+        "Adiós Mundo",
+        "Hola de nuevo",
+        "Último saludo"
+    ];
+
+    // Bucle for para recorrer y mostrar cada mensaje
+    for ($i = 0; $i < count($mensajes); $i++) {
+        echo($mensajes[$i] . "<br>");
+    }
 ?>
